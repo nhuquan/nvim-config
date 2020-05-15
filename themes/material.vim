@@ -3,5 +3,6 @@ if (has('termguicolors'))
 endif
 
 let g:material_terminal_italics = 1
-let g:material_theme_style = 'lighter'
-colorscheme louver
+"let g:material_theme_style = 'lighter'
+set background=light
+colorscheme one
