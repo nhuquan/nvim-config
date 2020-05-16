@@ -7,62 +7,28 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-
-  " Change dates fast
+  
   Plug 'tpope/vim-speeddating'
-  " Convert binary, hex, etc..
   Plug 'glts/vim-radical'
-  " Files
-  Plug 'tpope/vim-eunuch'
-  " Repeat stuff
+  Plug 'eugen0329/vim-esearch'
   Plug 'tpope/vim-repeat'
-  " Surround
   Plug 'tpope/vim-surround'
-  " Better Comments
-  Plug 'preservim/nerdcommenter'
-  " Have the file system follow you around
   Plug 'airblade/vim-rooter'
-  " auto set indent settings
-  Plug 'tpope/vim-sleuth'
-
-  " CTRL P
   Plug 'ctrlpvim/ctrlp.vim'
-
-  if exists('g:vscode')
-    " Easy motion for VSCode
-    Plug 'asvetliakov/vim-easymotion'
-
-  else
-    " Text Navigation
-    " Add some color
-    Plug 'norcalli/nvim-colorizer.lua'
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
-    " Cool Icons
-    " Auto pairs for '(' '[' '{' 
-    Plug 'jiangmiao/auto-pairs'
-    " Closetags
-    Plug 'alvan/vim-closetag'
-    " Themes
-    Plug 'kaicataldo/material.vim'
-    Plug 'rakr/vim-one'
-    " Intellisense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Status Line
-    Plug 'vim-airline/vim-airline'
-    Plug 'airblade/vim-gitgutter'
-    Plug 'tpope/vim-fugitive'
-    Plug 'junegunn/gv.vim'
-    " See what keys do like in emacs
-    Plug 'liuchengxu/vim-which-key'
-    " Zen mode
-    Plug 'junegunn/goyo.vim'
-    " Making stuff
-    Plug 'neomake/neomake'
-    " Icons
-    Plug 'ryanoasis/vim-devicons'
-  endif
-
+  Plug 'norcalli/nvim-colorizer.lua'
+  Plug 'sheerun/vim-polyglot'
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'alvan/vim-closetag'
+  Plug 'kaicataldo/material.vim'
+  Plug 'rakr/vim-one'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'vim-airline/vim-airline'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'tpope/vim-fugitive'
+  Plug 'junegunn/gv.vim'
+  Plug 'junegunn/goyo.vim'
+  Plug 'mattn/emmet-vim'
+  Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
