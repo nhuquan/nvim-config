@@ -34,12 +34,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   else
     " Text Navigation
-"    Plug 'justinmk/vim-sneak'
-"    Plug 'unblevable/quick-scope'
-    " Plug 'easymotion/vim-easymotion'
     " Add some color
     Plug 'norcalli/nvim-colorizer.lua'
-    Plug 'junegunn/rainbow_parentheses.vim'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Cool Icons
@@ -48,48 +44,22 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    "Plug 'christianchiarulli/onedark.vim'
     Plug 'kaicataldo/material.vim'
-		Plug 'rakr/vim-one'
-    " Plug 'NLKNguyen/papercolor-theme'
-    " Plug 'tomasiser/vim-code-dark'
+    Plug 'rakr/vim-one'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
     Plug 'vim-airline/vim-airline'
-    " Plug 'vim-airline/vim-airline-themes'
-    " Ranger
-    " Plug 'francoiscabrol/ranger.vim'
-    " Plug 'rbgrouleff/bclose.vim'
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-    " FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    " Git
-    " Plug 'mhinz/vim-signify'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
-    " Terminal
-    Plug 'voldikss/vim-floaterm'
-    " Start Screen
-    Plug 'mhinz/vim-startify'
-    " Vista
-    Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
     " Zen mode
     Plug 'junegunn/goyo.vim'
     " Making stuff
     Plug 'neomake/neomake'
-    " Snippets TODO fix TAB hijack
-    " Plug 'SirVer/ultisnips'
-    " Better Comments
-    " Plug 'jbgutierrez/vim-better-comments'
-    " Echo doc
-    " Plug 'Shougo/echodoc.vim'
-
+    " Icons
     Plug 'ryanoasis/vim-devicons'
   endif
 
