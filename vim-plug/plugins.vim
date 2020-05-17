@@ -28,6 +28,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/gv.vim'
   Plug 'junegunn/goyo.vim'
   Plug 'mattn/emmet-vim'
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  Plug 'sebdah/vim-delve'
+
+  " This should be always at the end
   Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
