@@ -9,6 +9,8 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
   
   Plug 'tpope/vim-speeddating'
+  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+  Plug 'tpope/vim-fireplace', {'for': 'clojure'}
   Plug 'glts/vim-radical'
   Plug 'eugen0329/vim-esearch'
   Plug 'tpope/vim-repeat'
@@ -29,7 +31,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/goyo.vim'
   Plug 'mattn/emmet-vim'
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-  Plug 'jososha/vim-godebug'
+  "Plug 'jososha/vim-godebug'
 
   " This should be always at the end
   Plug 'ryanoasis/vim-devicons'
